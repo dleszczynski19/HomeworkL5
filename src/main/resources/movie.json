@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Film1",
+    "director": {
+      "name": "Reżyser1",
+      "lastName": "Nazw1"
+    },
+    "genre": "drama",
+    "date": 2000,
+    "actors": [
+      {
+        "name": "aktor1",
+        "lastName": "naz1"
+      },
+      {
+        "name": "aktor2",
+        "lastName": "naz2"
+      },
+      {
+        "name": "aktor3",
+        "lastName": "naz3"
+      },
+      {
+        "name": "aktor4",
+        "lastName": "naz4"
+      },
+      {
+        "name": "aktor5",
+        "lastName": "naz5"
+      }
+    ]
+  },
+  {
+    "title": "Film2",
+    "director": {
+      "name": "Reżyser2",
+      "lastName": "Nazw2"
+    },
+    "genre": "comedy",
+    "date": 2005,
+    "actors": [
+      {
+        "name": "aktor2",
+        "lastName": "naz2"
+      },
+      {
+        "name": "aktor3",
+        "lastName": "naz3"
+      },
+      {
+        "name": "aktor4",
+        "lastName": "naz4"
+      }
+    ]
+  },
+  {
+    "title": "Film3",
+    "director": {
+      "name": "Reżyser3",
+      "lastName": "Nazw3"
+    },
+    "genre": "drama",
+    "date": 2010,
+    "actors": [
+      {
+        "name": "aktor1",
+        "lastName": "naz1"
+      },
+      {
+        "name": "aktor2",
+        "lastName": "naz2"
+      },
+      {
+        "name": "aktor5",
+        "lastName": "naz5"
+      }
+    ]
+  },
+  {
+    "title": "Film4",
+    "director": {
+      "name": "Reżyser1",
+      "lastName": "Nazw1"
+    },
+    "genre": "drama",
+    "date": 2000,
+    "actors": [
+      {
+        "name": "aktor1",
+        "lastName": "naz1"
+      },
+      {
+        "name": "aktor2",
+        "lastName": "naz2"
+      },
+      {
+        "name": "aktor4",
+        "lastName": "naz4"
+      },
+      {
+        "name": "aktor5",
+        "lastName": "naz5"
+      }
+    ]
+  }
+]

@@ -26,24 +26,25 @@ public class ProgramAction {
             int programIndex = Integer.parseInt(InputHandler.geInput());
             switch (programIndex) {
                 case 1:
-                    int yearFrom = Integer.parseInt(InputHandler.geInput(InputHandler.colorGreen + "You have" +
-                            " selected the option to show films from a given age range." + InputHandler.colorReset +
-                            "\nEnter year from:"));
+                    int yearFrom = Integer.parseInt(InputHandler.geInput(InputHandler.TextColor.GREEN +
+                            "You have selected the option to show films from a given age range." +
+                            InputHandler.TextColor.RESET + "\nEnter year from:"));
                     int yearTo = Integer.parseInt(InputHandler.geInput("Enter year to:"));
                     movies = movieLibrary.getMoviesByDate(yearFrom, yearTo);
                     movieLibrary.printTitle(movies);
                     XmlHandler.serialize(movies, "films" + yearFrom + "_to_" + yearTo);
                     break;
                 case 2:
-                    System.out.println(InputHandler.colorGreen + "You have selected the option to show information" +
-                            " about random film." + InputHandler.colorReset);
+                    System.out.println(InputHandler.TextColor.GREEN + "You have selected the option to show information"
+                            + " about random film." + InputHandler.TextColor.RESET);
                     Movie movie = movieLibrary.getRandomMovie();
                     System.out.println(movie);
                     XmlHandler.serialize(movie, "randomMovie");
                     break;
                 case 3:
-                    String name = InputHandler.geInput(InputHandler.colorGreen + "You have selected the" +
-                            " option to show films for a given actor." + InputHandler.colorReset + "\nEnter actor name:");
+                    String name = InputHandler.geInput(InputHandler.TextColor.GREEN + "You have selected the"
+                            + " option to show films for a given actor." + InputHandler.TextColor.RESET
+                            + "\nEnter actor name:");
                     String lastName = InputHandler.geInput("Enter last name:");
                     Actor actor = new Actor(name, lastName);
                     movies = movieLibrary.getMoviesByActor(actor);
@@ -51,11 +52,12 @@ public class ProgramAction {
                     XmlHandler.serialize(movies, actor.toString());
                     break;
                 case 4: {
-                    System.out.println(InputHandler.colorGreen + "You closed the program.");
+                    System.out.println(InputHandler.TextColor.GREEN + "You closed the program.");
                     return;
                 }
                 default:
-                    System.out.println(InputHandler.colorRed + "You have typed wrong number." + InputHandler.colorReset);
+                    System.out.println(InputHandler.TextColor.RED + "You have typed wrong number." +
+                            InputHandler.TextColor.RESET);
             }
         }
     }

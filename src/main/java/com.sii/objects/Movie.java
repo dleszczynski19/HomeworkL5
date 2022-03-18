@@ -40,7 +40,7 @@ public class Movie {
 
     @Override
     public String toString(){
-        return InputHandler.colorBlue + "\tTitle: " + title + "\n\tDirector: " + director + "\n\tGenre: " + genre +
-                "\n\tDate: " + releaseDate + "\n\tActors: " + actors + InputHandler.colorReset;
+        return InputHandler.TextColor.BLUE+ "\tTitle: " + title + "\n\tDirector: " + director + "\n\tGenre: " + genre +
+                "\n\tDate: " + releaseDate + "\n\tActors: " + actors + InputHandler.TextColor.RESET;
     }
 }

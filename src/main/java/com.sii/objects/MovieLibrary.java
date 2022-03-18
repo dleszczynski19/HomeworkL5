@@ -34,6 +34,7 @@ public class MovieLibrary {
     public void printTitle(List<Movie> movies) {
         movies.stream()
                 .map(Movie::getTitle)
-                .forEach(movie -> System.out.println(InputHandler.colorBlue + "\tMovie: " + InputHandler.colorReset + movie));
+                .forEach(movie -> System.out.println(InputHandler.TextColor.BLUE + "\tMovie: " +
+                        InputHandler.TextColor.RESET + movie));
     }
 }

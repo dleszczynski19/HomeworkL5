@@ -1,105 +1,323 @@
 [
   {
-    "title": "Film1",
+    "title": "The Shawshank Redemption",
     "director": {
-      "name": "Reżyser1",
-      "lastName": "Nazw1"
+      "name": "Frank",
+      "lastName": "Darabont"
     },
-    "genre": "drama",
-    "date": 2000,
+    "genre": "crime",
+    "date": 1994,
     "actors": [
       {
-        "name": "aktor1",
-        "lastName": "naz1"
+        "name": "Tim",
+        "lastName": "Robbins"
       },
       {
-        "name": "aktor2",
-        "lastName": "naz2"
+        "name": "Morgan",
+        "lastName": "Freeman"
       },
       {
-        "name": "aktor3",
-        "lastName": "naz3"
-      },
-      {
-        "name": "aktor4",
-        "lastName": "naz4"
-      },
-      {
-        "name": "aktor5",
-        "lastName": "naz5"
+        "name": "Bob",
+        "lastName": "Gunton"
       }
     ]
   },
   {
-    "title": "Film2",
+    "title": "The Godfather",
     "director": {
-      "name": "Reżyser2",
-      "lastName": "Nazw2"
+      "name": "Francis Ford",
+      "lastName": "Coppola"
     },
-    "genre": "comedy",
-    "date": 2005,
+    "genre": "crime",
+    "date": 1972,
     "actors": [
       {
-        "name": "aktor2",
-        "lastName": "naz2"
+        "name": "James",
+        "lastName": "Caan"
       },
       {
-        "name": "aktor3",
-        "lastName": "naz3"
+        "name": "Marlon",
+        "lastName": "Brando"
       },
       {
-        "name": "aktor4",
-        "lastName": "naz4"
+        "name": "Al",
+        "lastName": "Pacino"
       }
     ]
   },
   {
-    "title": "Film3",
+    "title": "The Godfather II",
     "director": {
-      "name": "Reżyser3",
-      "lastName": "Nazw3"
+      "name": "Francis Ford",
+      "lastName": "Coppola"
     },
-    "genre": "drama",
-    "date": 2010,
+    "genre": "crime",
+    "date": 1972,
     "actors": [
       {
-        "name": "aktor1",
-        "lastName": "naz1"
+        "name": "Al",
+        "lastName": "Pacino"
       },
       {
-        "name": "aktor2",
-        "lastName": "naz2"
+        "name": "Robert",
+        "lastName": "De Niro"
       },
       {
-        "name": "aktor5",
-        "lastName": "naz5"
+        "name": "Robert",
+        "lastName": "Duvall"
       }
     ]
   },
   {
-    "title": "Film4",
+    "title": "The Dark Knight",
     "director": {
-      "name": "Reżyser1",
-      "lastName": "Nazw1"
+      "name": "Christopher",
+      "lastName": "Nolan"
     },
-    "genre": "drama",
-    "date": 2000,
+    "genre": "action",
+    "date": 2008,
     "actors": [
       {
-        "name": "aktor1",
-        "lastName": "naz1"
+        "name": "Christian",
+        "lastName": "Bale"
       },
       {
-        "name": "aktor2",
-        "lastName": "naz2"
+        "name": "Heath",
+        "lastName": "Ledger"
       },
       {
-        "name": "aktor4",
-        "lastName": "naz4"
+        "name": "Aaron",
+        "lastName": "Eckhart"
+      }
+    ]
+  },
+  {
+    "title": "Schindler's List",
+    "director": {
+      "name": "Steven",
+      "lastName": "Spielberg"
+    },
+    "genre": "drama",
+    "date": 1993,
+    "actors": [
+      {
+        "name": "Liam",
+        "lastName": "Neeson"
       },
       {
-        "name": "aktor5",
-        "lastName": "naz5"
+        "name": "Ralph",
+        "lastName": "Fiennes"
+      },
+      {
+        "name": "Bem",
+        "lastName": "Kingsley"
+      }
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": {
+      "name": "Quentin",
+      "lastName": "Tarantino"
+    },
+    "genre": "crime",
+    "date": 1994,
+    "actors": [
+      {
+        "name": "John",
+        "lastName": "Travolta"
+      },
+      {
+        "name": "Uma",
+        "lastName": "Thurman"
+      },
+      {
+        "name": "Samuel L.",
+        "lastName": "Jackson"
+      }
+    ]
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "director": {
+      "name": "Peter",
+      "lastName": "Jackson"
+    },
+    "genre": "fantasy",
+    "date": 2003,
+    "actors": [
+      {
+        "name": "Elijah",
+        "lastName": "Wood"
+      },
+      {
+        "name": "Viggo",
+        "lastName": "Mortensen"
+      },
+      {
+        "name": "Ian",
+        "lastName": "McKellen"
+      }
+    ]
+  },
+  {
+    "title": "Il buono, il brutto, il cattivo",
+    "director": {
+      "name": " Sergio",
+      "lastName": "Leone"
+    },
+    "genre": "western",
+    "date": 1966,
+    "actors": [
+      {
+        "name": "Clint",
+        "lastName": "Eastwood"
+      },
+      {
+        "name": "Eli",
+        "lastName": "Wallach"
+      },
+      {
+        "name": "Lee",
+        "lastName": "Van Cleef"
+      }
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "director": {
+      "name": "David",
+      "lastName": "Fincher"
+    },
+    "genre": "drama",
+    "date": 1999,
+    "actors": [
+      {
+        "name": "Brad",
+        "lastName": "Pitt"
+      },
+      {
+        "name": "Edward",
+        "lastName": "Norton"
+      },
+      {
+        "name": "Meat",
+        "lastName": "Loaf"
+      }
+    ]
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": {
+      "name": "Peter",
+      "lastName": "Jackson"
+    },
+    "genre": "fantasy",
+    "date": 2002,
+    "actors": [
+      {
+        "name": "Elijah",
+        "lastName": "Wood"
+      },
+      {
+        "name": "Orlando",
+        "lastName": "Bloom"
+      },
+      {
+        "name": "Ian",
+        "lastName": "McKellen"
+      }
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "director": {
+      "name": "Robert",
+      "lastName": "Zemeckis"
+    },
+    "genre": "drama",
+    "date": 1994,
+    "actors": [
+      {
+        "name": "Tom",
+        "lastName": "Hanks"
+      },
+      {
+        "name": "Robin",
+        "lastName": "Wright"
+      },
+      {
+        "name": "Gary",
+        "lastName": "Sinise"
+      }
+    ]
+  },
+  {
+    "title": "Alien",
+    "director": {
+      "name": "Ridley",
+      "lastName": "Scott"
+    },
+    "genre": "horror",
+    "date": 1980,
+    "actors": [
+      {
+        "name": "Sigourney",
+        "lastName": "Weaver"
+      },
+      {
+        "name": "Tom",
+        "lastName": "Skerritt"
+      },
+      {
+        "name": "John",
+        "lastName": "Hurt"
+      }
+    ]
+  },
+  {
+    "title": "The Thing",
+    "director": {
+      "name": "John",
+      "lastName": "Carpenter"
+    },
+    "genre": "horror",
+    "date": 1982,
+    "actors": [
+      {
+        "name": "Kurt",
+        "lastName": "Russell"
+      },
+      {
+        "name": "Wilford",
+        "lastName": "Brimley"
+      },
+      {
+        "name": "Keith",
+        "lastName": "David"
+      }
+    ]
+  },
+  {
+    "title": "Troy",
+    "director": {
+      "name": "Wolfgang",
+      "lastName": "Petersen"
+    },
+    "genre": "drama",
+    "date": 2004,
+    "actors": [
+      {
+        "name": "Orlando",
+        "lastName": "Bloom"
+      },
+      {
+        "name": "Brad",
+        "lastName": "Pitt"
+      },
+      {
+        "name": "Eric",
+        "lastName": "Bana"
       }
     ]
   }

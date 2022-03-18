@@ -1,7 +1,10 @@
-package com.sii;
+package com.sii.handlers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sii.objects.Actor;
+import com.sii.objects.Director;
+import com.sii.objects.Movie;
 
 import java.io.File;
 import java.io.IOException;

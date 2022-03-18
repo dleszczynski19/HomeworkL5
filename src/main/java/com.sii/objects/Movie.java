@@ -1,4 +1,6 @@
-package com.sii;
+package com.sii.objects;
+
+import com.sii.handlers.InputHandler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +11,9 @@ public class Movie {
     private String genre;
     private List<Actor> actors = new ArrayList<>();
     private Director director;
+
+    public Movie() {
+    }
 
     public Movie(String title, int releaseDate, String movieGenre, Director director) {
         this.title = title;
@@ -35,7 +40,7 @@ public class Movie {
 
     @Override
     public String toString(){
-        return "Title: " + title + "\nDirector: " + director + "\nGenre: " + genre + "\nDate: " + releaseDate +
-                "\nActors: " + actors + "\n##################";
+        return InputHandler.colorBlue + "\tTitle: " + title + "\n\tDirector: " + director + "\n\tGenre: " + genre +
+                "\n\tDate: " + releaseDate + "\n\tActors: " + actors + InputHandler.colorReset;
     }
 }

@@ -1,12 +1,12 @@
 # HomeworkL5
 
-Stwórz program o nazwie com.sii.MovieLibrary. Powinien on przechowywać listę filmów.
+Stwórz program o nazwie MovieLibrary. Powinien on przechowywać listę filmów.
 
 Każdy film powinien mieć: nazwę, tytuł, rok wydania, reżysera, gatunek oraz listę aktorów
 
 Reżyser oraz aktorzy powinni mieć oddzielnie imię i nazwisko.
 
-Zastosuj tutaj programowanie obiektowe – stwórz klasy np. com.sii.MovieLibrary, com.sii.Movie, com.sii.Director, com.sii.Actor (lub inne jakie uważasz) wraz z potrzebnymi polami klasy i metodami.
+Zastosuj tutaj programowanie obiektowe – stwórz klasy np. MovieLibrary, Movie, Director, Actor (lub inne jakie uważasz) wraz z potrzebnymi polami klasy i metodami.
 
 Tym razem nie będziesz danych wprowadzać za pomocą klawiatury ale powinny być zaimportowanee z pliku JSON
 
@@ -20,7 +20,7 @@ Dowiedz się jak czym są pliki JSON oraz na czym polega ich deserializacja.  Te
 
 W celu deserializacji danych skorzystaj z biblioteki ‘jackson’ (chyba, że korzystałeś kiedyś z innej i ją preferujesz)
 
-Deserializację łopatologicznie można to określić jako zamienienie pliku JSON na listę obiektów klasy ‘com.sii.Movie’. Dzięki temu będziesz miał zaimportowaną listę filmów z pliku.
+Deserializację łopatologicznie można to określić jako zamienienie pliku JSON na listę obiektów klasy ‘Movie’. Dzięki temu będziesz miał zaimportowaną listę filmów z pliku.
 
 Tutaj zostawiam link do tego jak użyć tej biblioteki w celu deserializacji https://www.baeldung.com/jackson-deserialization
 
@@ -50,6 +50,6 @@ actors: Tim Robbins, Morgan Freeman, Bob Gunton
 
 
 
-Powyższy efekt powinien być uzyskany poprzez nadpisania metody toString() w klasach typu com.sii.Movie, com.sii.Actor itd..
+Powyższy efekt powinien być uzyskany poprzez nadpisania metody toString() w klasach typu Movie, Actor itd..
 
 https://www.baeldung.com/java-tostring

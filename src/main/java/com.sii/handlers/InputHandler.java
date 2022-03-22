@@ -5,14 +5,18 @@ import java.util.Scanner;
 public class InputHandler {
     static Scanner scanner = new Scanner(System.in);
 
-    public enum TextColor{
+    public enum TextColor {
         RESET("\u001B[0m"), GREEN("\u001B[32m"), BLUE("\u001B[34m"),
         RED("\u001B[31m");
 
-        final String colorIndex;
+        private final String colorIndex;
 
-        TextColor(String colorIndex){
+        TextColor(String colorIndex) {
             this.colorIndex = colorIndex;
+        }
+
+        public String getColor() {
+            return colorIndex;
         }
     }
 

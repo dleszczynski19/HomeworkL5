@@ -1,4 +1,4 @@
-package com.sii.objects;
+package com.sii.models;
 
 import com.sii.handlers.InputHandler;
 
@@ -27,14 +27,14 @@ public class MovieLibrary {
                 .collect(Collectors.toList());
     }
 
-    public Movie getRandomMovie(){
-       return movies.get(new Random().nextInt(movies.size() - 1));
+    public Movie getRandomMovie() {
+        return movies.get(new Random().nextInt(movies.size() - 1));
     }
 
     public void printTitle(List<Movie> movies) {
         movies.stream()
                 .map(Movie::getTitle)
-                .forEach(movie -> System.out.println(InputHandler.TextColor.BLUE + "\tMovie: " +
-                        InputHandler.TextColor.RESET + movie));
+                .forEach(movie -> System.out.println(InputHandler.TextColor.BLUE.getColor() + "\tMovie: " +
+                        InputHandler.TextColor.RESET.getColor() + movie));
     }
 }

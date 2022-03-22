@@ -1,4 +1,4 @@
-package com.sii.objects;
+package com.sii.models;
 
 import com.sii.handlers.InputHandler;
 
@@ -39,8 +39,9 @@ public class Movie {
     }
 
     @Override
-    public String toString(){
-        return InputHandler.TextColor.BLUE+ "\tTitle: " + title + "\n\tDirector: " + director + "\n\tGenre: " + genre +
-                "\n\tDate: " + releaseDate + "\n\tActors: " + actors + InputHandler.TextColor.RESET;
+    public String toString() {
+        return InputHandler.TextColor.BLUE.getColor() + "\tTitle: " + title + "\n\tDirector: " + director +
+                "\n\tGenre: " + genre + "\n\tDate: " + releaseDate + "\n\tActors: " + actors +
+                InputHandler.TextColor.RESET.getColor();
     }
 }

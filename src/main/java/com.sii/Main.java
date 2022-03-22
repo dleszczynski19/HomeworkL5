@@ -2,7 +2,7 @@ package com.sii;
 
 import com.sii.handlers.DataHandler;
 import com.sii.handlers.JsonHandler;
-import com.sii.objects.MovieLibrary;
+import com.sii.models.MovieLibrary;
 
 public class Main {
     public static void main(String[] args) {
